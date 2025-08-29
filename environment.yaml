@@ -176,5 +176,5 @@ dependencies:
   - zlib=1.2.13=h8cc25b3_1
   - zstd=1.5.5=hd43e919_2
 packages:
-- jupyter-panel-proxy
+  - jupyter-panel-proxy
 prefix: C:\Users\Gabriel\anaconda3\envs\Planck
