@@ -66,5 +66,5 @@ def get_app():
         hv_pane.object = full_plot
     
     button.on_click(b)
-    
-    return pn.Row(pn.Column(tabedit, button), hv_pane)
+    dash = pn.Row(pn.Column(tabedit, button), hv_pane)
+    return dash
