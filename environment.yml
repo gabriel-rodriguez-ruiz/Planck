@@ -1,8 +1,11 @@
-name: load-forecasts
+name: notebook
 channels:
   - conda-forge
 dependencies:
-  - dask[complete]
+  - python=3.11
+  - zipp=3.21.0
+  - dask-core
+  - distributed
   - holoviews
   - hvplot
   - jupyterlab
@@ -14,15 +17,13 @@ dependencies:
   - pyarrow
   - openpyxl
   - datashader
-  - scikit-learn
+  - cartopy
+  - geoviews
+  - voila
+  - jupyter-panel-proxy
   - pylint
   - mypy
   - pytest
   - isort
   - black
   - autoflake
-  - cartopy
-  - geoviews
-  - voila
-  - jupyter-panel-proxy
-  - python>=3.11
